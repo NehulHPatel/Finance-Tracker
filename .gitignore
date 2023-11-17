@@ -1,6 +1,58 @@
-__pycache__/
+# Python
 *.pyc
 *.pyo
-*.pyd
-env/
+__pycache__/
+
+# Django
+*.log
+*.pot
+*.pyc
+*.pyo
+db.sqlite3
+db.sqlite3-journal
+media/
+static/
+local_settings.py
+
+# Virtual environment
 venv/
+env/
+.env
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Temporary files
+*.swp
+
+# Ignore local settings (you might want to include this if you have local settings for development)
+local_settings.py
+
+
+# Django
+*.log
+*.pot
+*.pyc
+*.pyo
+db.sqlite3
+db.sqlite3-journal
+media/
+static/
+local_settings.py
+*.py[mc]
+__pycache__/
+
+# Django migrations
+**/migrations/*.py
+**/migrations/*.pyc
