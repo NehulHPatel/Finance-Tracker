@@ -125,6 +125,9 @@ STATIC_URL = 'static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # finance_tracker/settings.py
-
+# Authentication Model
 AUTH_USER_MODEL = 'authentication.CustomUser'
+
+# Password Validators
+AUTH_PASSWORD_VALIDATORS = []
 

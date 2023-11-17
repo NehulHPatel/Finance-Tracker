@@ -6,7 +6,10 @@ set -e
 source venv/bin/activate
 
 # Install requirements
-pip install -r requirements.txt
+while read requirement; do
+    pip install --no-cache-dir --ignore-installed "$requirement" || echo "Failed to install $requirement"
+done < requirements.txt
+
 
 # Create and apply migrations
 python manage.py makemigrations
