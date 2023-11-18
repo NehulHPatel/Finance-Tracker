@@ -16,8 +16,11 @@ python manage.py makemigrations
 python manage.py migrate
 
 # Create a superuser
-python manage.py createsuperuser
+# python manage.py createsuperuser
 
 # Run the development server
 python manage.py runserver
 
+# NPM Install
+npm install 
+npm start
